@@ -2,20 +2,23 @@ name: al_quran_app
 version: 1.0.0+1
 publish_to: none
 description: A new Flutter project.
-environment:
+environment: 
   sdk: ^3.5.0
 
-dependencies:
+dependencies: 
   cupertino_icons: ^1.0.8
   get: 4.6.6
   http: ^1.1.0
-  flutter:
+  lottie: 3.1.2
+  flutter: 
     sdk: flutter
 
-dev_dependencies:
+dev_dependencies: 
   flutter_lints: 4.0.0
-  flutter_test:
+  flutter_test: 
     sdk: flutter
 
-flutter:
+flutter: 
   uses-material-design: true
+  assets: 
+    - assets/lotties/
