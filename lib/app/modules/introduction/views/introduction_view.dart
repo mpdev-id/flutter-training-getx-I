@@ -24,20 +24,6 @@ class IntroductionView extends GetView<IntroductionController> {
                 color: Colors.black45,
               ),
             ),
-            // Text(
-            //   "&",
-            //   style: TextStyle(
-            //     fontSize: 24,
-            //   ),
-            // ),
-            // Text(
-            //   "Do'a ",
-            //   style: TextStyle(
-            //     fontSize: 34,
-            //     fontWeight: FontWeight.w600,
-            //   ),
-            // ),
-
             SizedBox(
               width: 300,
               height: 300,
@@ -62,11 +48,11 @@ class IntroductionView extends GetView<IntroductionController> {
               style: ElevatedButton.styleFrom(
                 backgroundColor: const Color(0xFF9C6DEC),
               ),
-              onPressed: () => Routes.HOME,
+              onPressed: () => Get.offAllNamed(Routes.HOME),
               child: const Text(
                 'Mulai Membaca',
                 style: TextStyle(
-                  color: Colors.purpleAccent,
+                  color: Color.fromARGB(255, 243, 177, 255),
                 ),
               ),
             )
